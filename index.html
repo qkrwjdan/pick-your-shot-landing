@@ -43,56 +43,53 @@
   </head>
   <body>
     <!-- Page 1 -->
-    <section class="relative z-20 h-screen bg-primary text-white">
-      <div
-        class="absolute bottom-0 hidden aspect-square w-3/4 -translate-x-10 rounded-full border-[4rem] border-secondary sm:visible sm:right-0 sm:w-[45%] sm:-translate-y-1/2 sm:border-[7vw]"
-      ></div>
-      <svg
-        width="380"
-        height="483"
-        viewBox="0 0 380 483"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute bottom-0 sm:hidden"
-      >
-        <path
-          d="M339.381 482.959C375.434 417.729 388.01 342.103 375.009 268.716C362.007 195.329 324.215 128.627 267.946 79.7542C211.678 30.8814 140.342 2.79867 65.8572 0.198197C-8.62714 -2.40227 -81.748 20.6371 -141.288 65.4667L-76.9575 150.906C-36.9808 120.806 12.1147 105.337 62.1256 107.083C112.137 108.829 160.034 127.685 197.814 160.499C235.594 193.314 260.969 238.1 269.699 287.374C278.428 336.648 269.984 387.425 245.777 431.222L339.381 482.959Z"
-          fill="#FF8C59"
-        />
-      </svg>
-      <div
-        class="relative flex flex-col items-center gap-8 pt-24 sm:items-start sm:px-16"
-      >
-        <a href="#" class="block h-20 w-20">
-          <img src="logo.png" alt="" class="h-full w-full" />
-        </a>
-        <h1 class="text-md text-center font-medium sm:text-left">
-          즐겁고 건전한 주류문화 커뮤니티,<br />
-          <span class="font-['Montserrat'] text-2xl">PICKSHOT</span>
-        </h1>
-        <div class="flex flex-col gap-2 sm:flex-row">
-          <a
-            href="https://play.google.com/store/apps/details?id=com.cheetah.pickshot"
-            class="w-40"
-            target="_blank"
-          >
-            <img src="google.png" alt="" />
+    <div class="bg-primary text-white">
+      <section class="relative z-20 mx-auto h-screen max-w-md">
+        <svg
+          width="380"
+          height="483"
+          viewBox="0 0 380 483"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="absolute bottom-0 max-w-full"
+        >
+          <path
+            d="M339.381 482.959C375.434 417.729 388.01 342.103 375.009 268.716C362.007 195.329 324.215 128.627 267.946 79.7542C211.678 30.8814 140.342 2.79867 65.8572 0.198197C-8.62714 -2.40227 -81.748 20.6371 -141.288 65.4667L-76.9575 150.906C-36.9808 120.806 12.1147 105.337 62.1256 107.083C112.137 108.829 160.034 127.685 197.814 160.499C235.594 193.314 260.969 238.1 269.699 287.374C278.428 336.648 269.984 387.425 245.777 431.222L339.381 482.959Z"
+            fill="#FF8C59"
+          />
+        </svg>
+        <div class="relative flex flex-col items-center gap-8 pt-24">
+          <a href="#" class="block h-20 w-20">
+            <img src="logo.png" alt="" class="h-full w-full" />
           </a>
-          <a
-            href="https://apps.apple.com/kr/app/pickshot/id1639201935"
-            class="w-40"
-            target="_blank"
-          >
-            <img src="apple.png" alt="" />
-          </a>
+          <h1 class="text-md text-center font-medium">
+            즐겁고 건전한 주류문화 커뮤니티,<br />
+            <span class="font-['Montserrat'] text-2xl">PICKSHOT</span>
+          </h1>
+          <div class="flex flex-col gap-2">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.cheetah.pickshot"
+              class="w-40"
+              target="_blank"
+            >
+              <img src="google.png" alt="" />
+            </a>
+            <a
+              href="https://apps.apple.com/kr/app/pickshot/id1639201935"
+              class="w-40"
+              target="_blank"
+            >
+              <img src="apple.png" alt="" />
+            </a>
+          </div>
+          <img src="phones.png" alt="" class="relative" />
         </div>
-        <img src="phones.png" alt="" class="relative" />
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- Page 1 -->
     <!-- Page 2 -->
     <section
-      class="relative z-10 flex h-screen flex-col justify-center gap-8 bg-gradient-to-b from-[#191919] via-[#191919] px-4 text-center text-white sm:h-[min(56vw,100vh)]"
+      class="relative z-10 flex h-screen flex-col justify-center gap-8 bg-gradient-to-b from-[#191919] via-[#191919] px-4 text-center text-white"
       style="
         --tw-gradient-stops: var(--tw-gradient-from) 90%, #191919,
           var(--tw-gradient-to) 100%;
@@ -105,9 +102,9 @@
         </h2>
       </div>
       <p class="paragraph">
-        안녕하세요 고객님, <br class="sm:hidden" />
+        안녕하세요 고객님, <br />
         PICKSHOT 사전예약을 해주셔서 감사합니다<br />
-        여러분들의 성원에 힘입어<br class="sm:hidden" />
+        여러분들의 성원에 힘입어<br />
         PICKSHOT 어플리케이션이 드디어 출시되었습니다.<br />
         <br />
         <span class="font-bold">
@@ -118,7 +115,7 @@
     <!-- Page 2 -->
     <!-- Page 3 -->
     <section
-      class="relative mt-[-10vh] h-[110vh] px-4 py-[10vh] font-['Pretendard'] text-xl text-white sm:flex-row"
+      class="relative mt-[-10vh] h-[110vh] px-4 py-[10vh] font-['Pretendard'] text-xl text-white"
     >
       <video
         src="back3.mp4"
@@ -128,9 +125,9 @@
         class="absolute left-0 top-0 h-full w-full object-cover brightness-50"
       ></video>
       <div
-        class="relative flex h-screen flex-col items-center gap-8 py-8 pt-16 text-center sm:px-16 sm:text-left md:flex-row"
+        class="relative mx-auto flex h-screen max-w-md flex-col items-center gap-8 py-8 pt-16 text-center"
       >
-        <section class="sm:grow">
+        <section>
           <p class="subtitle">나만의 칵테일 추천받기</p>
           <br />
           <p class="paragraph">
@@ -141,7 +138,7 @@
           </p>
         </section>
         <div class="min-h-0 grow">
-          <img src="phone1.png" alt="" class="h-full md:h-auto" />
+          <img src="phone1.png" alt="" class="h-full" />
         </div>
       </div>
     </section>
@@ -150,10 +147,10 @@
     <section
       class="flex h-screen flex-col items-center justify-between gap-4 py-8 px-4 pt-16"
     >
-      <section class="text-center sm:text-right">
+      <section class="text-center">
         <p class="subtitle">칵테일 레시피 보기</p>
         <br />
-        <p class="paragraph sm:ml-auto">
+        <p class="paragraph">
           칵테일에 대한 <b>레시피와 정보를 확인</b>할 수 있어요!<br />
           바에서 먹었던 칵테일, 집에서 만들어 먹고 싶은데<br />
           어떻게 만드는거지? 궁금했다면<br />
@@ -161,31 +158,24 @@
           칵테일에 대해 알고 먹으면 또 다른 느낌의 칵테일로 다가올거에요.
         </p>
       </section>
-      <img
-        src="phone2.png"
-        alt=""
-        class="hidden min-h-0 max-w-2xl grow sm:block"
-      />
-      <div class="min-h-0 grow sm:hidden">
+      <div class="min-h-0 grow">
         <img src="phone2_sm.png" alt="" class="h-full" />
       </div>
     </section>
     <!-- Page 4 -->
     <!-- Page 5 -->
     <section
-      class="flex h-screen w-full flex-col items-center gap-4 bg-gradient-to-b from-[#EAEFFE] via-[#FFFFFF] pb-8 pt-16 sm:grid sm:h-[150vh] sm:grid-cols-[1fr_auto] sm:grid-rows-[auto_1fr_auto]"
+      class="flex h-screen w-full flex-col items-center gap-4 bg-gradient-to-b from-[#EAEFFE] via-[#FFFFFF] pb-8 pt-16"
       style="
         --tw-gradient-stops: var(--tw-gradient-from) -20%, #eaeffe,
           var(--tw-gradient-to) 10%;
       "
       id="trigger"
     >
-      <section class="sm:ml-[7vw]">
-        <p class="subtitle text-center sm:text-left">
-          인기피드와 피드 구경하기
-        </p>
+      <section>
+        <p class="subtitle text-center">인기피드와 피드 구경하기</p>
         <br />
-        <p class="paragraph text-center sm:text-left">
+        <p class="paragraph text-center">
           사용자들이 올린 사진을 구경해보세요!<br />
           최상단에는 <b>실시간 인기 피드</b>가<br />
           그 아래에는 최근 사람들이 올린 피드들이 나와요.<br />
@@ -194,12 +184,12 @@
         </p>
       </section>
       <div
-        class="relative aspect-[1/2] min-h-0 grow overflow-hidden rounded-3xl border-8 border-black sm:row-span-2 sm:mr-[7vw] sm:h-[80vh] sm:place-self-end"
+        class="relative aspect-[1/2] min-h-0 grow overflow-hidden rounded-3xl border-8 border-black"
       >
         <img src="home.png" alt="" class="animate absolute -z-10 w-full" />
       </div>
       <div
-        class="h-18 grid hidden place-items-center place-self-stretch overflow-hidden sm:grid"
+        class="h-18 grid hidden place-items-center place-self-stretch overflow-hidden"
       >
         <div class="h-18 animate-samples gap-16">
           <img
@@ -264,7 +254,7 @@
           />
         </div>
       </div>
-      <div class="flex hidden flex-col items-start gap-32 sm:visible">
+      <div class="flex hidden flex-col items-start gap-32">
         <div
           class="flex -translate-x-10 items-center gap-4 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl border border-gray-200 bg-gray-50 p-6 text-xl text-gray-300"
         >
@@ -282,13 +272,13 @@
     <!-- Page 5 -->
     <!-- Page 6 -->
     <section
-      class="flex min-h-screen flex-col gap-8 bg-gradient-to-br from-[#6D37CB] to-[#5500E7] py-8 pt-16 text-white text-white sm:overflow-x-clip"
+      class="flex min-h-screen flex-col gap-8 bg-gradient-to-br from-[#6D37CB] to-[#5500E7] py-8 pt-16 text-white text-white"
       id="trigger2"
     >
-      <section class="sm:px-16">
-        <p class="subtitle text-center sm:text-left">나의 피드 꾸미기</p>
+      <section>
+        <p class="subtitle text-center">나의 피드 꾸미기</p>
         <br />
-        <p class="paragraph text-center sm:text-left">
+        <p class="paragraph text-center">
           당신이 하나, 둘 씩 남긴 기록은<br />
           PICKSHOT에 차곡차곡 쌓여서<br />
           당신의 취향을 나타내는 그림이 될거에요. <br />
@@ -296,7 +286,7 @@
           <b>당신의 하루와 당신의 술, 당신의 피드를 꾸며보세요.</b>
         </p>
       </section>
-      <div class="disable-scrollbar relative grow overflow-x-auto sm:hidden">
+      <div class="disable-scrollbar relative grow overflow-x-auto">
         <div
           class="animate2 ml-[calc(50vw-10rem)] inline-flex flex-nowrap items-center"
         >
@@ -316,9 +306,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="ml-auto hidden grid-cols-3 place-items-stretch gap-6 px-16 sm:grid"
-      >
+      <div class="ml-auto hidden grid-cols-3 place-items-stretch gap-6 px-16">
         <div class="relative col-start-2">
           <p class="absolute top-1/4 -left-1/2 font-['Montserrat']">
             PICKSHOT<br />술생활 기록부
@@ -340,7 +328,7 @@
         </div>
       </div>
     </section>
-    <section class="hidden overflow-clip px-[7vw] sm:block">
+    <section class="hidden overflow-clip px-[7vw]">
       <div class="mx-auto grid h-full grid-cols-3 place-items-center gap-6">
         <img src="feed1.png" alt="" class="-translate-y-[10%] scale-90" />
         <img src="feed2.png" alt="" class="scale-90" />
@@ -349,7 +337,7 @@
     <!-- Page 6 -->
     <!-- Page 7 -->
     <section class="flex min-h-screen flex-col gap-8 pb-8 pt-16" id="trigger3">
-      <section class="px-4 text-center sm:text-left">
+      <section class="px-4 text-center">
         <p class="subtitle">칵테일 리뷰 작성하기</p>
         <br />
         <p class="paragraph">
@@ -384,7 +372,7 @@
         <p class="font-['Montserrat'] text-2xl font-bold text-gray-900">
           <span class="">PICKSHOT</span> Download
         </p>
-        <div class="flex flex-col gap-2 sm:flex-row">
+        <div class="flex flex-col gap-2">
           <a
             href="https://play.google.com/store/apps/details?id=com.cheetah.pickshot"
             class="w-40"
