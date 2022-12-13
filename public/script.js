@@ -36,3 +36,11 @@ window.onload = () => {
   controller.addScene(scene2);
   controller.addScene(scene3);
 };
+
+function cb() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+}
+
+cb();
+windoaddEventListener("resize", cb);

@@ -46,3 +46,21 @@
     line-height: 1.625;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+}
+
+@media only screen and (max-device-width: 640px) {
+  .h-screen {
+    height: calc(var(--var, 1vh) * 100 + env(safe-area-inset-bottom)) !important;
+  }
+}
