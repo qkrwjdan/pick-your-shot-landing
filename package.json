@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "npx tailwindcss -i ./style/input.css -o ./style/output.css --watch",
-    "build": "npx tailwindcss -i ./style/input.css -o ./style/output.css"
+    "build": "npx tailwindcss -i ./style/input.css -o ./style/output.css",
+    "start": "sudo node index.js"
   },
   "dependencies": {
     "express": "^4.18.2"
